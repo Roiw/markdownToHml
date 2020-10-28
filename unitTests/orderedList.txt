@@ -1,0 +1,58 @@
+############ Test 1 ############
+1. AAAA
+2. BBBB
+3. CCCC
+4. DDDD
+--------------- Ans ------------
+<ol>
+<li>AAAA</li>
+<li>BBBB</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ol>
+############ Test 3 ############
+1. AAAA
+2. BBBB
+3. CCCC
+
+
+4. DDDD
+--------------- Ans ------------
+<ol>
+<li>AAAA</li>
+<li>BBBB</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ol>
+############ Test 4 ############
+1. AAAA
+
+3. CCCC
+4. DDDD
+--------------- Ans ------------
+<ol>
+<li>AAAA</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ol>
+############ Test 5 ############
+Btw this should be on a single line
+1. not as an unordered list
+2. and not as an ordered list either
+--------------- Ans ------------
+<p>Btw this should be on a single line
+1. not as an unordered list
+2. and not as an ordered list either</p>
+############ Test 6 ############
+## Header
+1. Use a minus sign for a bullet
+2. Or plus sign
+3. Or an asterisk
+--------------- Ans ------------
+<h2>Header</h2>
+
+<ol>
+<li>Use a minus sign for a bullet</li>
+<li>Or plus sign</li>
+<li>Or an asterisk</li>
+</ol>

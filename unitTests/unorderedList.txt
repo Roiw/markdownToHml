@@ -1,0 +1,60 @@
+############ Test 1 ############
+- AAAA
+- BBBB
+- CCCC
+- DDDD
+--------------- Ans ------------
+<ul>
+<li>AAAA</li>
+<li>BBBB</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ul>
+############ Test 3 ############
+- AAAA
++ BBBB
+* CCCC
+
+
+- DDDD
+--------------- Ans ------------
+<ul>
+<li>AAAA</li>
+<li>BBBB</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ul>
+############ Test 4 ############
++ AAAA
+
++ CCCC
++ DDDD
+--------------- Ans ------------
+<ul>
+<li>AAAA</li>
+<li>CCCC</li>
+<li>DDDD</li>
+</ul>
+############ Test 5 ############
+- Use a minus sign for a bullet
++ Or plus sign
+* Or an asterisk
+--------------- Ans ------------
+<ul>
+<li>Use a minus sign for a bullet</li>
+<li>Or plus sign</li>
+<li>Or an asterisk</li>
+</ul>
+############ Test 6 ############
+# Header 1
+- Use a minus sign for a bullet
++ Or plus sign
+* Or an asterisk
+--------------- Ans ------------
+<h1>Header 1</h1>
+
+<ul>
+<li>Use a minus sign for a bullet</li>
+<li>Or plus sign</li>
+<li>Or an asterisk</li>
+</ul>

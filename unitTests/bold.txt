@@ -1,0 +1,32 @@
+############ Test 1 ############
+**AAAA**
+--------------- Ans ------------
+<p><strong>AAAA</strong></p>
+############ Test 2 ############
+**B** BBBB
+--------------- Ans ------------
+<p><strong>B</strong> BBBB</p>
+############ Test 3 ############
+***B** BBBB
+--------------- Ans ------------
+<p><strong>*B</strong> BBBB</p>
+############ Test 4 ############
+**BB**AA**BB**
+--------------- Ans ------------
+<p><strong>BB</strong>AA<strong>BB</strong></p>
+############ Test 5 ############
+__AAAA__
+--------------- Ans ------------
+<p><strong>AAAA</strong></p>
+############ Test 6 ############
+__B__ BBBB
+--------------- Ans ------------
+<p><strong>B</strong> BBBB</p>
+############ Test 7 ############
+__*B__ BBBB
+--------------- Ans ------------
+<p><strong>*B</strong> BBBB</p>
+############ Test 8 ############
+____B__ BBBB
+--------------- Ans ------------
+<p><strong>__B</strong> BBBB</p>
