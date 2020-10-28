@@ -6,3 +6,5 @@ In order to run the project:
 - dotnet run
 
 This will run the test cases defined on unitTests
+
+Another possibility is to instantiate a MarkdownToHtml class and call ParseMarkdown providing and input and output file.
