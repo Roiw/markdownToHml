@@ -4,4 +4,5 @@ A simplified and easily extensible Markup to HTML parser. It offers a small set 
 In order to run the project:
 - dotnet new console
 - dotnet run
+
 This will run the test cases defined on unitTests
