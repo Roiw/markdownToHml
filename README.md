@@ -9,7 +9,7 @@ Nested lists.
 Paragraphs nested inside of lists.
 Multiline list items.
 
-Additionally, in order to make the output HTML more readable I add empty lines in between tags, except for the case of the <li>, <strong> and <em> tags.
+Additionally, in order to make the output HTML more readable I add empty lines in between tags, except for the case of the \<li\>, \<strong\> and \<em\> tags.
 
 ## Expanding the project
 
