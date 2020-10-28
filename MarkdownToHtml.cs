@@ -4,8 +4,7 @@ using System.Text.RegularExpressions;
 namespace markdownToHml
 {
     public class MarkdownToHtml
-    {
-        
+    {    
         /// <summary>
         /// Converts an Markdown file to Html
         /// </summary>
